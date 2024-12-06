@@ -10,6 +10,7 @@ public class elseifstatement {
 		else if(mark >= 40) {
 			System.out.println("Pass");
 		}
+		
 		else {
 			System.out.print("Fall");
 		}
