@@ -16,7 +16,7 @@ public class method_different {
 	}
 	public static void show(String name, int age) {
 		System.out.println("Hello,"+name);
-		System.out.println("your age is "+age);
+		System.out.println("your age is 3"+age);
 
 	}
 	public static void show(int age,String name) {
