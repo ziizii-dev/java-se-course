@@ -12,7 +12,6 @@ public class mile_to_kilo_conver_project {
 		System.out.println(mile + " mile is "+ result + " Km");
 
 	}
-
 	 public static double miletoKiloConvert(int miles) {
 		double result =  miles*1.609;
 		return result;
