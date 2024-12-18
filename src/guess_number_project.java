@@ -7,7 +7,6 @@ public class guess_number_project {
 		Random randomNumber = new Random();
  	int secretNum = randomNumber.nextInt(100);
  	//System.out.println("Random number:" + secretNum);
-      
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Guess my number:");
 		int result = scanner.nextInt();
@@ -21,8 +20,6 @@ public class guess_number_project {
 			 result = scanner.nextInt();
 		}
 		System.out.println("Corret!"+ result);
-		
-		
 	}
 	
 
