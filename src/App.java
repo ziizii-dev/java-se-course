@@ -20,7 +20,6 @@ public class App {
 		Student.showCount();
 		int num = Integer.parseInt("12");  //static method
 		//static တွေက class နဲ့သက်ဆိုင်တယ်/ static မဟုတ်တာက မသက်ဆိုင်လို့ new instance တည်ဆောက်မှရမယ်/ static တွေကို class ကနေ တိုက်ရိုက်သုံးလို့ရ
-		
 		//constructure
 		Employment employment = new Employment(12);
 	}
