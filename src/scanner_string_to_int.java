@@ -20,7 +20,6 @@ public class scanner_string_to_int {
 
 	        String city = scanner.nextLine();
 
-
 	        System.out.println("City:"+city);
 	        System.out.println("Hello, " + name + "!");
 	        System.out.println("Your age:"+age);
