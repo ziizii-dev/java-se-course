@@ -10,7 +10,6 @@ public class App {
 //		Machine mac = new Motorbike();
 		test(car);
 		
-		
 	}
 	
 	public static void test(Machine machine) {
