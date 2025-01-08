@@ -3,4 +3,5 @@ public interface Machine {
 	public  void start(); //abstract method 
 	public  void stop();
 	
+
 }
