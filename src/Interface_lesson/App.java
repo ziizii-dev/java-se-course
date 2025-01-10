@@ -12,7 +12,6 @@ public class App {
 		
 	}
 	
-	
 	public static void test(Machine machine) {
 		machine.start();
 		machine.stop();
