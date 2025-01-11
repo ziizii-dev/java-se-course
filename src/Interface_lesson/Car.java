@@ -7,5 +7,6 @@ public class Car implements Machine {
 	 public void stop() {
 		 System.out.println("Car interface stopped");
 	 }
+	 
 
 }
