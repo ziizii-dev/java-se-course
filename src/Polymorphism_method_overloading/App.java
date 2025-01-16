@@ -8,7 +8,7 @@ public class App {
 //       person.showInfo(34);
        person.showInfo("mag mag");
        // depend on arguments person class will work is called polymorphism with mwthod overloading
-	
+
 	}
 
 }
