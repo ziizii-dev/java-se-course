@@ -10,5 +10,4 @@ public class App {
        // depend on arguments person class will work is called polymorphism with mwthod overloading
 
 	}
-
 }
