@@ -19,6 +19,7 @@ public class guess_number_project {
 				System.out.println("Less than my number,try again please");
 			}
 			 result = scanner.nextInt();
+			 
 		}
 		System.out.println("Corret!"+ result);
 	}
