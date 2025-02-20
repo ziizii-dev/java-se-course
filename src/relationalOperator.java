@@ -10,6 +10,7 @@ public class relationalOperator {
           System.out.println("i is " + i);
           boolean c = x==y;
           System.out.println("c is " + c);
+          
           boolean d = x!=y;
           System.out.println("d is " + d);
 	}
