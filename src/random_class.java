@@ -9,7 +9,6 @@ public class random_class {
 
      double number2 = random.nextDouble();
      float number3 = random.nextFloat();
-
      System.out.println("Random:"+number);
      System.out.println("Random:"+number1);
 
