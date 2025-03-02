@@ -2,6 +2,7 @@ import java.util.Random;
 
 
 public class random_class {
+     
 
 	public static void main(String[] args) {
      Random random = new Random();
