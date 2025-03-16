@@ -12,7 +12,6 @@ public class random_class {
      float number3 = random.nextFloat();
      System.out.println("Random:"+number);
      System.out.println("Random:"+number1);
-
      System.out.println("Random:"+number2);   //it includes between 0 and 1;
      System.out.println("Random:"+number3);
      
