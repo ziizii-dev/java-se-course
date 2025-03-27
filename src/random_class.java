@@ -16,3 +16,4 @@ public class random_class {
 	}
 	//to import shortkey use command shit o;
 }
+
