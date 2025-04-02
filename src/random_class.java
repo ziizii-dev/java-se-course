@@ -14,7 +14,6 @@ public class random_class {
      System.out.println("Random:"+number2);   //it includes between 0 and 1;
      System.out.println("Random:"+number3);
 
-
 	}
 
 	//to import shortkey use command shit o;
