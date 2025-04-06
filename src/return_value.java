@@ -7,7 +7,6 @@ public class return_value {
 		System.out.println(result);
 		String result1= names("Mg mg");
 		System.out.print(result1);
-
 	}
 	public static int calculate(int x, int y) {
 		int area = x * y;
