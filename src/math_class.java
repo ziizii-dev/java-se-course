@@ -12,6 +12,7 @@
 			 int result3 = (int) Math.ceil(999.8);
 			System.out.println("Ceil:"+result3);
 			
+			
 			 int result4 = (int) Math.abs(999.8);
 				System.out.println("Abs:"+result4); //it means from 0 - is 999 each difference;
 		   int result5 = (int) Math.pow(3,3);
