@@ -5,6 +5,7 @@ public class Car implements Machine {
 		 System.out.println("Car interface started");
 	 }
 	 public void stop() {
+		
 		 System.out.println("Car interface stopped");
 	 }
 	 
