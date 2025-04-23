@@ -8,8 +8,6 @@ public class Car implements Machine {
 
 		 System.out.println("Car interface stopped");
 	 }
-	
 
-	 
 
 }
