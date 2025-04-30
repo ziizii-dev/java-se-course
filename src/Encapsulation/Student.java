@@ -7,7 +7,6 @@ public class Student {
 	public int getRollNo() {
 		return rollNo;
 	}
-	
 
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
