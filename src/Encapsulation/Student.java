@@ -8,6 +8,8 @@ public class Student {
 		return rollNo;
 	}
 
+	
+
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
