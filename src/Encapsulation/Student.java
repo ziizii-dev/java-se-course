@@ -6,8 +6,9 @@ public class Student {
 	private String name;
 	public int getRollNo() {
 		return rollNo;
+		
 	}
-	
+
 
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
