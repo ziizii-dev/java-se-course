@@ -13,7 +13,6 @@ public class Student {
 		this.rollNo = rollNo;
 	}
 
-
 	public String getName() {
 		return name;
 	}
