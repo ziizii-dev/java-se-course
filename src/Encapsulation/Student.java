@@ -12,7 +12,7 @@ public class Student {
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
-	
+
 
 	public String getName() {
 		return name;
@@ -20,7 +20,6 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 
 }
 
