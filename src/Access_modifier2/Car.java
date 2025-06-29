@@ -8,7 +8,6 @@ public class Car extends Machine {
 	  id =90;
 	  //name ="Modifier"; //is private
 	  color ="Red"; //is protected
-	  
 	  count =90; //no-modifer
 	  
   }
