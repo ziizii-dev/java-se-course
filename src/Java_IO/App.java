@@ -12,12 +12,20 @@ public class App {
 		// TODO Auto-generated method stub
 		 File sourceFile = new File("/Users/macbookair/Documents/hello.txt");
 		 File write_File = new File("/Users/macbookair/Documents/test.txt");
+		 File readPhotoFile = new File("/Users/macbookair/Documents/rs1.jpeg");
+		 File writePhotoFile = new File("/Users/macbookair/Documents/test/test.jpeg");
+
+
 			FileInputStream readFile = null;
 			FileOutputStream writeFile =null;
+			FileInputStream readPhotoFile1 = null;
+			FileOutputStream writePhotoFile1 =null;
 		
 		 try {
 			readFile = new FileInputStream(sourceFile);
 			 writeFile = new FileOutputStream(write_File);
+			 readPhotoFile1 = new FileInputStream(readPhotoFile);
+			 writePhotoFile1 = new FileOutputStream(writePhotoFile);
 			
 			int result;
 			while((result = readFile.read()) != -1) {
@@ -27,6 +35,15 @@ public class App {
 				
 				
 			}
+			int photoResult;
+			int i =0;
+			while((photoResult = readPhotoFile1.read()) != -1) {
+				writePhotoFile1.write(photoResult);
+				i++;
+				
+				
+			}
+			System.out.println("File Size is"+" " + i+" " + "Bytes");
 			
 			 System.out.println("Finished");
 			
@@ -46,7 +63,16 @@ public class App {
              if(writeFile != null) {
             	 writeFile.close();		
              }
+             if(readPhotoFile1 != null) {
+            	 readPhotoFile1.close();
+
+			}
+			
+             if(writePhotoFile1 != null) {
+            	 writePhotoFile1.close();		
+             }
 		}
+		 
 		 
 
 	}
