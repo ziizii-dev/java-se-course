@@ -13,6 +13,7 @@ public class App {
 
         try {
             Scanner fileScanner = new Scanner(file);
+            
             while (fileScanner.hasNextLine()) {
             	
                 System.out.println(fileScanner.nextLine());

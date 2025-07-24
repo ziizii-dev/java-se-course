@@ -8,6 +8,7 @@ public class App {
 		Motorbike bike = new Motorbike();
 //		Machine mac = new Car();
 //		Machine mac = new Motorbike();
+		
 		test(car);
 	}
 	public static void test(Machine machine) {

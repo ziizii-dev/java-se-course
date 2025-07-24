@@ -13,6 +13,7 @@ public class App {
 		Hospital hospital = new Hospital();
 		Nurse nurse = new Nurse();
 		Patient patient = new Patient();
+		
 		Random  random = new  Random();
 
 	}
