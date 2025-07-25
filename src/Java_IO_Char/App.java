@@ -12,8 +12,7 @@ public class App {
 		// TODO Auto-generated method stub
 		 File sourceFile = new File("/Users/macbookair/Documents/hello.txt");
 		 File write_File = new File("/Users/macbookair/Documents/test/heloing.txt");
-		
-
+	
 
 			FileReader readFile = null;
 			FileWriter writeFile =null;
