@@ -23,7 +23,6 @@ public class App {
 
 			file.writeInt(800);
 			System.out.println("Finished.");
-
 			
 		  } catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
