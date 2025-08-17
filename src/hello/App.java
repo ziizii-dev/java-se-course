@@ -2,12 +2,11 @@ package hello;
 
 
 import java.util.Random;
-
-//import world.Nurse;
 import world.*;
 
 
 public class App {
+
 
 	public static void main(String[] args) {
 		Hospital hospital = new Hospital();

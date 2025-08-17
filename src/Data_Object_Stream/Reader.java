@@ -18,6 +18,7 @@ public class Reader {
         	System.out.println(student.getId()+" "+student.getName());
         	
         	
+        	
         }
           
 
