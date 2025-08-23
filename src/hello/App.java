@@ -7,6 +7,8 @@ import world.*;
 
 public class App {
 
+	
+
 
 	public static void main(String[] args) {
 		Hospital hospital = new Hospital();
