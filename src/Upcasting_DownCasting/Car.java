@@ -6,6 +6,7 @@ public class Car extends Machine {
 	public void start() {
 		System.out.println("Car start");
 	}
+	
 	@Override
 	public void stop() {
 		System.out.println("Car stopped");
