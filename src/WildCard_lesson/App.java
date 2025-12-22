@@ -10,6 +10,8 @@ public class App {
              Box<Person> box2 = new Box<>();
              
             box2.set(new Person());
+
+            
             
             Box<Student> box3 = new Box<>();
             box3.set(new Student());
